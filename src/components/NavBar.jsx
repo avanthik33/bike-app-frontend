@@ -17,7 +17,7 @@ const NavBar = () => {
                 <Link className="nav-link active" aria-current="page" to="/">Add</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">View</Link>
+                <Link className="nav-link" to="/view">View</Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
